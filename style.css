@@ -26,8 +26,11 @@ body {
   transform: translateX(220%);
   transition: transform 0.4s ease;
 }
+.box:nth-of-type(even) {
+  transform: translateX(-220%);
+}
 .show {
-  transform: translateX(0%);
+  transform: translateX(0%) !important;
 }
 .box h2 {
   font-size: 40px;
